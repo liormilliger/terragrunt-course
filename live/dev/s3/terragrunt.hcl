@@ -4,7 +4,7 @@ include "root" {
 
 terraform {
   # This can be a local path, a Git URL, or a Registry URL
-  source = "../../modules/s3-greeter"
+  source = "../../../modules/s3-greeter"
 }
 
 inputs = {
